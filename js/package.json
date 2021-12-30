@@ -1,0 +1,42 @@
+{
+  "name": "oxjsmart",
+  "title": "OxJSmart",
+  "version": "0.9.0",
+  "description": "Render smarty templates of oxid shops in frontend (Javascript).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3mo17/oxjsmart.git",
+    "directory": "js"
+  },
+  "scripts": {
+    "test": "node_modules/jest/bin/jest.js",
+    "document": "node_modules/jsdoc-to-markdown/bin/cli.js --no-cache --separators --private src/*.js > api.md",
+    "build": "node scripts/build.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "main": "src/OxJSmart.js",
+  "dependencies": {
+    "cestino": "^3.1.0",
+    "jsmart": "git+ssh://git@github.com:d3mo17/jsmart#semver:^4.1.0",
+    "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.4",
+    "jsdoc-to-markdown": "^7.1.0",
+    "requirejs": "^2.3.6",
+    "uglify-js": "^3.8.1"
+  },
+  "keywords": [
+    "jsmart",
+    "oxid",
+    "templating"
+  ],
+  "author": "Daniel Moritz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d3mo17/oxjmart/issues"
+  },
+  "homepage": "https://github.com/d3mo17/oxjmart#readme"
+}

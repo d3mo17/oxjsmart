@@ -1,7 +1,7 @@
 {
   "name": "oxjsmart",
   "title": "OxJSmart",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Render smarty templates of oxid shops in frontend (Javascript).",
   "repository": {
     "type": "git",
@@ -38,5 +38,5 @@
   "bugs": {
     "url": "https://github.com/d3mo17/oxjsmart/issues"
   },
-  "homepage": "https://github.com/d3mo17/oxjsmart#readme"
+  "homepage": "https://github.com/d3mo17/oxjsmart"
 }
